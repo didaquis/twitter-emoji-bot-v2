@@ -1,6 +1,6 @@
 # twitter-emoji-bot
 
-This is a Twitter bot created with TypeScript to run on Node.js. This bot publishes an emoji on Twitter an every few minutes.  
+This is a Twitter bot created with TypeScript to run on Node.js. This bot tweets an emoji on Twitter every few minutes.  
 This is a refactored version of this old repo: https://github.com/didaquis/twitter-emoji-bot  
 
 Example: [@_emoji_bot_](https://twitter.com/_emoji_bot_)  
