@@ -1,11 +1,11 @@
 export class EmojiService {
-	emojiList: []
+	emojiList: string[]
 
 	constructor() {
 		this.emojiList = require('emojis-list')
 	}
 
-	getEmojis(): [] {
+	getEmojis(): string[] {
 		return this.emojiList
 	}
 }

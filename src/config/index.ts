@@ -2,7 +2,7 @@ import * as dotenv from 'dotenv'
 
 dotenv.config()
 
-export default {
+export const config = {
 	TWITTER_CONSUMER_KEY: process.env.TWITTER_CONSUMER_KEY ?? '',
 	TWITTER_CONSUMER_SECRET: process.env.TWITTER_CONSUMER_SECRET ?? '',
 	TWITTER_ACCESS_TOKEN_KEY: process.env.TWITTER_ACCESS_TOKEN_KEY ?? '',
