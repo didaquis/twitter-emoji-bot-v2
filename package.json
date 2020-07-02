@@ -1,6 +1,6 @@
 {
   "name": "twitter-emoji-bot-v2",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Twitter bot",
   "main": "build/index.js",
   "scripts": {
@@ -53,6 +53,7 @@
   "dependencies": {
     "cron": "^1.8.2",
     "dotenv": "^8.2.0",
+    "emojis-list": "^3.0.0",
     "twitter": "^1.7.1"
   }
 }
