@@ -15,8 +15,7 @@ const cronTime = '*/20 * * * *'
 
 const onTick = (): void => {
 	const emojis: EmojiService = new EmojiService()
-	const emojiList: string[] = emojis.getEmojis()
-	const emojiListSortedRandomly: string[] = shuffle(emojiList)
+	const emojiListSortedRandomly: string[] = shuffle(emojis.getEmojis())
 	const firstEmoji: string = emojiListSortedRandomly[0]
 	twitterClient
 		.post('statuses/update', { status: `${firstEmoji}` })

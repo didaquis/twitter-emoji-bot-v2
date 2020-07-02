@@ -1,9 +1,10 @@
-# twitter-emoji-bot
+# twitter-emoji-bot-v2
 
 This is a Twitter bot created with TypeScript to run on Node.js. This bot tweets an emoji on Twitter every few minutes.  
-This is a refactored version of this old repo: https://github.com/didaquis/twitter-emoji-bot  
 
-Example: [@_emoji_bot_](https://twitter.com/_emoji_bot_)  
+Example: [@_emoji_bot_](https://twitter.com/_emoji_bot_/status/1278802638700711939)  
+
+![example.png](./docs-assets/example.png)
 
 ## Some useful links
 * https://apps.twitter.com 
@@ -13,11 +14,11 @@ Example: [@_emoji_bot_](https://twitter.com/_emoji_bot_)
 
 ## How to use
 * Download repo
-* Install dependencies `npm install`
-* You must configure the authentication data of Twitter.
-  * Write your credentials in file `_env`
-  * Rename the file `_env` to `.env`
-* Execute script with `node .` or `npm start`
+* Install dependencies: `npm install`
+* Configure the application:
+  * Duplicate the configuration file `_env` and rename it as `.env`
+  * Edit the file `.env` with the authentication data of Twitter
+* Run the bot with: `npm start`
 
 ## Suggestion
 You can deploy this code as a Node.js app on [Heroku](https://www.heroku.com/home)
