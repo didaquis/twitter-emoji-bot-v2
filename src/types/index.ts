@@ -1,0 +1,6 @@
+export type Configuration = {
+	TWITTER_CONSUMER_KEY: string
+	TWITTER_CONSUMER_SECRET: string
+	TWITTER_ACCESS_TOKEN_KEY: string
+	TWITTER_ACCESS_TOKEN_SECRET: string
+}

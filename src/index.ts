@@ -28,6 +28,6 @@ const onTick = (): void => {
 		})
 }
 
-const job = createJob(cronTime, onTick, CronJob)
+const job: CronJob = createJob(cronTime, onTick, CronJob)
 
 job.start()

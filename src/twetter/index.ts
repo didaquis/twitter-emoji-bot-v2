@@ -1,7 +1,9 @@
+import { Configuration } from '../types'
+import Twiter from 'twitter'
 /* eslint-disable @typescript-eslint/explicit-module-boundary-types */
 /* eslint-disable @typescript-eslint/no-explicit-any */
-/* eslint-disable @typescript-eslint/ban-types */
-export const twetter = (config: any, tweeterLibrary: any): any => {
+
+export const twetter = (config: Configuration, tweeterLibrary: any): Twiter => {
 	return new tweeterLibrary({
 		consumer_key: config.TWITTER_CONSUMER_KEY,
 		consumer_secret: config.TWITTER_CONSUMER_SECRET,
