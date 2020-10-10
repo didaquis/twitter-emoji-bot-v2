@@ -1,7 +1,7 @@
 'use strict'
 
 import { CronJob } from 'cron'
-import Twiter from 'twitter'
+import Twitter from 'twitter'
 
 import { createJob } from './schedule'
 import { twetter } from './twetter'
@@ -9,7 +9,7 @@ import { config } from './config'
 import { EmojiService } from './services/EmojiService'
 import { shuffle } from './utils'
 
-const twitterClient: Twiter = twetter(config, Twiter)
+const twitterClient: Twitter = twetter(config, Twitter)
 
 const cronTime = '*/20 * * * *'
 
